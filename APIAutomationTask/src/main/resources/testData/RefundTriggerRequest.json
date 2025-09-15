@@ -1,0 +1,8 @@
+{
+  "orderId": "order_12345",
+  "refundAmount": 75.50,
+  "refundReason": "Customer requested return",
+  "refundType": "wallet",
+  "currency": "SAR",
+  "region": "KSA"
+}

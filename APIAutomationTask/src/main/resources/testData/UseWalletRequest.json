@@ -1,0 +1,7 @@
+{
+  "orderId": "order_12345",
+  "walletAmount": 50.00,
+  "orderTotal": 299.00,
+  "currency": "SAR",
+  "region": "KSA"
+}
