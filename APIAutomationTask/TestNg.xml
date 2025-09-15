@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Golden Scent API Tests">
+    
+    <listeners>
+        <listener class-name="listeners.TestNGListener"/>
+    </listeners>
+    <test name="All API Tests">
+        <classes>
+            <class name="testCases.GoldenScentApiTests.LoyaltyPointsApiTests"/>
+            <class name="testCases.GoldenScentApiTests.WalletApiTests"/>
+        </classes>
+    </test>
+    
+</suite>
