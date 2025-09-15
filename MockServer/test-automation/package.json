@@ -1,0 +1,44 @@
+{
+  "name": "golden-scent-api-tests",
+  "version": "1.0.0",
+  "description": "API test automation for Golden Scent Loyalty Points and Wallet system",
+  "main": "jest-tests.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:rest-assured": "jest rest-assured-tests.js",
+    "test:jest": "jest jest-tests.js",
+    "test:all": "jest --testPathPattern=.*-tests.js"
+  },
+  "keywords": [
+    "api-testing",
+    "automation",
+    "jest",
+    "supertest",
+    "golden-scent"
+  ],
+  "author": "Golden Scent QA Team",
+  "license": "MIT",
+  "dependencies": {
+    "supertest": "^6.3.3",
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/test-automation/**/*.js"
+    ],
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "html"
+    ],
+    "testTimeout": 10000
+  }
+}
